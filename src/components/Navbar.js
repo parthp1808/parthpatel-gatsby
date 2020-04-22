@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="container max-w-5xl mx-auto flex items-center px-8 lg:px-0 flex items-center justify-between flex-wrap">
             <div className="flex items-center flex-no-shrink text-white mr-6">
               <Link className="flex text-white text-base no-underline hover:text-white hover:no-underline" to="/"> 
-                <img src="https://www.parthpatel.net/wp-content/uploads/2017/05/18716774_723752251141877_1841702510_n.png" alt="" style={{maxHeight: "50px"}}/>
+                <img src="https://i0.wp.com/www.parthpatel.net/wp-content/uploads/2017/05/18716774_723752251141877_1841702510_n.png?fit=264%2C248&ssl=1" alt="" style={{maxHeight: "50px"}}/>
               </Link>
             </div>
             <div className="block lg:hidden">
