@@ -5,7 +5,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 //import the Prism package
 import Prism from "prismjs"
-import { DiscussionEmbed } from "disqus-react"
+// import { DiscussionEmbed } from "disqus-react"
 
 export const BlogPostTemplate = ({
   content,
@@ -44,7 +44,7 @@ export const BlogPostTemplate = ({
             </h1>
             <p class="text-sm md:text-base text-gray-500"><Link to={`/author/${author.slug}`}>{author.name}</Link> on {date}</p>
             <div className="py-4" dangerouslySetInnerHTML={{ __html: content }} />
-            <DiscussionEmbed {...disqusConfig} />
+            {/* <DiscussionEmbed {...disqusConfig} /> */}
           </div>
         </div>
       </div>
