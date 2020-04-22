@@ -32,7 +32,11 @@ const BlogIndex = ({ data, location }) => {
             </div>
           </div>
           <div className="hidden sm:block">
-            <img src="/img/parth-patel.jpeg" alt="Parth Patel" width="300px" height="300px" style={{borderRadius: "100%"}} />
+          <picture>
+            <source srcset="img/parthpatel.webp" type="image/webp" alt="Parth Patel" width="300px" height="300px" style={{borderRadius: "100%"}} />
+            <img src="/img/parthpatel.jpeg" alt="Parth Patel" width="300px" height="300px" style={{borderRadius: "100%"}} />
+          </picture>
+            
           </div>
         </div>
         

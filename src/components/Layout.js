@@ -8,6 +8,10 @@ const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet title="Home | Gatsby + WordPress">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="icon" href="https://i0.wp.com/www.parthpatel.net/wp-content/uploads/2017/04/fav-32x32.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/www.parthpatel.net/wp-content/uploads/2017/04/fav-32x32.png?fit=32%2C32&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/www.parthpatel.net/wp-content/uploads/2017/04/fav-32x32.png?fit=32%2C32&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/www.parthpatel.net/wp-content/uploads/2017/04/fav-32x32.png?fit=32%2C32&#038;ssl=1" />
     </Helmet>
     <Navbar />
     <main>{children}</main>
