@@ -8,6 +8,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../fonts/open-sans/open-sans-v17-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Open Sans Regular'), local('OpenSans-Regular'),
        url('../fonts/open-sans/open-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -21,6 +22,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('../fonts/open-sans/open-sans-v17-latin-700.eot'); /* IE9 Compat Modes */
   src: local('Open Sans Bold'), local('OpenSans-Bold'),
        url('../fonts/open-sans/open-sans-v17-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -35,6 +37,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url('../fonts/roboto/roboto-v20-latin-300.eot'); /* IE9 Compat Modes */
   src: local('Roboto Light'), local('Roboto-Light'),
        url('../fonts/roboto/roboto-v20-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -48,6 +51,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../fonts/roboto/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Roboto'), local('Roboto-Regular'),
        url('../fonts/roboto/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -61,6 +65,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url('../fonts/roboto/roboto-v20-latin-500.eot'); /* IE9 Compat Modes */
   src: local('Roboto Medium'), local('Roboto-Medium'),
        url('../fonts/roboto/roboto-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -74,6 +79,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('../fonts/roboto/roboto-v20-latin-700.eot'); /* IE9 Compat Modes */
   src: local('Roboto Bold'), local('Roboto-Bold'),
        url('../fonts/roboto/roboto-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
