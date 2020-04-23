@@ -6,11 +6,8 @@ import Navbar from './Navbar'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Home | Gatsby + WordPress">
-    <link rel="icon" href="https://i0.wp.com/www.parthpatel.net/wp-content/uploads/2017/04/fav-32x32.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
-<link rel="icon" href="https://i0.wp.com/www.parthpatel.net/wp-content/uploads/2017/04/fav-32x32.png?fit=32%2C32&#038;ssl=1" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://i0.wp.com/www.parthpatel.net/wp-content/uploads/2017/04/fav-32x32.png?fit=32%2C32&#038;ssl=1" />
-<meta name="msapplication-TileImage" content="https://i0.wp.com/www.parthpatel.net/wp-content/uploads/2017/04/fav-32x32.png?fit=32%2C32&#038;ssl=1" />
+    <Helmet title="Home | Parth Patel">
+      <meta name="description" content="Programming blog featuring articles about Laravel, PHP, Javascript, Python and more development" />
     </Helmet>
     <Navbar />
     <main>{children}</main>

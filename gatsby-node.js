@@ -6,6 +6,38 @@ const { paginate } = require('gatsby-awesome-pagination')
 const getOnlyPublished = edges =>
   _.filter(edges, ({ node }) => node.status === 'publish')
 
+  exports.createSchemaCustomization = ({ actions }) => {
+    const { createTypes } = actions
+    const typeDefs = `
+      type WordpressYoastMeta @dontInfer {
+        name: String
+        property: String
+        content: String
+      }
+  
+      type wordpress__PAGE implements Node @infer {
+        yoast_meta: [WordpressYoastMeta]
+      }
+    `
+    createTypes(typeDefs)
+  }
+
+  exports.createSchemaCustomization = ({ actions }) => {
+    const { createTypes } = actions
+    const typeDefs = `
+      type WordpressYoastMeta @dontInfer {
+        name: String
+        property: String
+        content: String
+      }
+
+      type wordpress__PAGE implements Node @infer {
+        yoast_meta: [WordpressYoastMeta]
+      }
+    `
+    createTypes(typeDefs)
+  }
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
