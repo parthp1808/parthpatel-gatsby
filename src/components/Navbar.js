@@ -35,6 +35,15 @@ const Navbar = () => {
             <div className={"w-full flex-grow lg:items-center lg:w-auto  lg:block pt-6 lg:pt-0" +
                     (navbarOpen ? "  lg:flex" : " hidden")}>
               <ul className="list-reset lg:flex justify-end flex-1 items-center list-none">
+              <li className="mr-2">
+                  <Link
+                    className="inline-block text-white no-underline hover:border-b-2 hover:text-underline py-2 px-2"
+                    to={`/blog`}
+                    key={`blog`}
+                  >
+                  Blog
+                  </Link>
+                </li>
               {data.allWordpressPage.edges.map(edge => (
                 <li className="mr-2">
                   <Link
